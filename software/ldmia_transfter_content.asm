@@ -25,7 +25,3 @@ copy_loop ; acts as loop counter
 	BNE copy_loop ; loop until all data copied
 stop B stop 
   END
-
-
-
-Inference:
