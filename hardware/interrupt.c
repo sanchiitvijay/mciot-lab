@@ -2,7 +2,6 @@
 #include "NUC1xx.h"
 #include "Driver/DrvSYS.h"
 #include "Driver/DrvGPIO.h"
-#include "NUC1xx-LB_002/Ascii.h"
 #include "NUC1xx-LB_002/LCD_Driver.h"
 
 void EINT1_Callback(void) {
