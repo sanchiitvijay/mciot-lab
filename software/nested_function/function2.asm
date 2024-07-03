@@ -6,3 +6,5 @@
 func2
 	MOVS r2,#08
 	BX LR
+
+	END
