@@ -11,10 +11,10 @@ void EINT1_Callback(void) {
     DrvGPIO_SetBit(E_GPA, 12);
     while(1) {
         i = 12;
-        while(i < 14) {
-            DrvGPIO_ClrBit(E_GPA, 12);
+        while(i <= 14) {
+            DrvGPIO_ClrBit(E_GPA, i);
             DrvSYS_Delay(10000);
-            DrvGPIO_SetBit(E_GPA, 12);
+            DrvGPIO_SetBit(E_GPA, i);
             DrvSYS_Delay(10000);
             i++;
         }
