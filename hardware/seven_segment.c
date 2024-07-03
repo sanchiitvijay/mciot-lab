@@ -10,7 +10,7 @@ void seg_display(int16_t val){
 		digit = val % 10;
 		val = val/10;
 		close_seven_segment();
-		show_seven_segment(4,digit);
+		show_seven_segment(4-i,digit);
 		DrvSYS_Delay(10000);
 	}
 }
