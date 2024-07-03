@@ -6,7 +6,7 @@
 
 int main (void){					   
 	UNLOCKREG();
-  DrvSYS_Open(48000000);
+	DrvSYS_Open(48000000);
 	LOCKREG();
 
 	DrvGPIO_Open(E_GPB, 11, E_IO_OUTPUT);
