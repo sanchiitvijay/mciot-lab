@@ -2,6 +2,7 @@
 #include "NUC1xx.h"
 #include "Driver\DrvSYS.h"
 #include "Driver\DrvGPIO.h"
+#include "Driver\DrvADC.h"
 
 int main (void){					   
 	UNLOCKREG();
