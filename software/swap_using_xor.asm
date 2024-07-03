@@ -1,7 +1,7 @@
-PRESERVE8	
-	  THUMB
+	PRESERVE8	
+	THUMB
 	area |.text|,CODE,READONLY
-  EXPORT __main
+	EXPORT __main
 
 __main
 	LDR r0,=0xF631024C
